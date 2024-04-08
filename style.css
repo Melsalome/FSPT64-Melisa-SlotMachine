@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.pinimg.com/originals/94/24/c4/9424c4c89a3a37536d05df7cf7d48e25.gif);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  #tragaperras {
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    margin-top: 170px;
+  }
+  
+  .ruedauno,.ruedados,.ruedatres {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin: 0 5px;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  img{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    
+  }
+
+
+#alerta {
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+    width: auto; 
+    max-width: 300px; 
+  }
+  .ganador{
+    background-color: #4CAF50; 
+
+  }
+  .sigueIntentando{
+    background-color: #ffb700; 
+
+  }
+
+  .alerta-contenido {
+    text-align: center; 
+  }
+
+  #mensaje-alerta {
+    font-size: 1rem; 
+  }
+  
+ #jugar {
+  margin-top: 20px;
+  background: linear-gradient(45deg, #ff00cc, #333399);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive; 
+  font-size: 20px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  box-shadow: 0 4px #999;
+  transition: background-color 0.3s, box-shadow 0.2s, transform 0.2s;
+}
+
+
+#jugar:hover {
+  background: linear-gradient(45deg, #ff66d9, #6666cc);
+  box-shadow: 0 6px #666;
+  transform: translateY(-2px);
+}
+
+
+#jugar:active {
+  background: linear-gradient(45deg, #cc00a3, #292966);
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+ 
+
+
+span{
+  font-family: 'Press Start 2P', cursive; 
+  color: #FAC213; 
+  text-shadow: 3px 3px 0px #E53E3E, 6px 6px 0px rgba(0,0,0,0.15); 
+  text-align: center;
+  font-size: 2rem; 
+  -webkit-text-fill-color: transparent;
+  margin: 20px 0;
+  animation: neon 1.5s ease-in-out infinite alternate;
+  width: fit-content;
+}
